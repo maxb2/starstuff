@@ -1,0 +1,15 @@
+[package]
+name = "starstuff"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "A work-in-progress astronomical library."
+homepage = "https://github.com/maxb2/starstuff"
+repository = "https://github.com/maxb2/starstuff"
+readme = "README.md"
+exclude = ["data/*"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+starstuff-types = "0.1"
